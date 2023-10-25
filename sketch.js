@@ -45,17 +45,19 @@ function draw() {
   translate(posX1, posY1);
   rotate(radians(anguloCua));
   fill(colur1);
+  stroke(219, 209, 0, 100);
   rect(0, 0, tam1);
   pop();
 
   fill(colur2);
-  noStroke();
+  stroke(255, 255, 255, 15);
   circle(posX2, posY2, tam2);
 
   push();
   translate(posX3, posY3);
   rotate(radians(anguloTria));
   fill(colur3);
+  stroke(0, 219, 147, 20);
   triangle(0, -tam3, -tam3 / 2, tam3 / 2, tam3 / 2, tam3 / 2);
   pop();
 
